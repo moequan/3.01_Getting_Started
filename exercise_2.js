@@ -60,7 +60,8 @@ console.log (typeof Infinity); //Number
 
 let theNumber=55;
 isNaN(theNumber);
-console.log (isNaN(theNumber)) //false
+console.log (isNaN(theNumber)); //false
+console.log( "variable is NOT a number"+[isNaN(theNumber)]);
 
 //11. Print the data type of isNaN(variable) to the console.
 
