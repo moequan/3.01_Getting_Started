@@ -22,7 +22,7 @@ console.log (ageMark,ageJohn);
 //3. Is John older than Mark? Declare a variable with a boolean value and print the following to the console eg. "John is older than Mark: true"
 
 let olderThan=20 < 22;
-console.log ("John is than mark : ", [olderThan])
+console.log ("John is older than mark : ", [olderThan])
 
 //4. Declare a variable called x. Do not assign a value. Print x's data type to the console.
 /* var x;
