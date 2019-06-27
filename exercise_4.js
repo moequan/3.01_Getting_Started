@@ -43,3 +43,21 @@ var c = 20;
 resultTwo = ((15+9)*20);
 console.log(resultTwo);
 
+
+//7. Increment a. Print the result to the console.
+
+console.log (a+1);
+
+//8. Decrement b. Print the result to the console.
+
+console.log (a-1)
+
+//9. Subtract a from b and store this in a new variable "d". Add d and c. Print the result to the console.
+ 
+var d = ((b-a));
+console.log (d);
+console.log (d+c);
+
+//10. Print the remainder when "resultOne" is divided by "resultTwo" to the console.
+
+console.log(resultOne%resultTwo);
