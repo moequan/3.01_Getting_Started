@@ -35,11 +35,11 @@ console.log(resultOne);
 
 var a = 15;
 var b = 9;
-console.log(15/9); //1.667 / 1/3
+console.log(15%9); //6
 
 //6. Declare another variable "c" with the value of 20. Add a and b, then multiply the result by c. Store the result in variable "resultTwo".  Print "resultTwo" to the console.
 
 var c = 20; 
 resultTwo = ((15+9)*20);
-console.log(resultTwo)
+console.log(resultTwo);
 
