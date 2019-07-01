@@ -50,3 +50,34 @@ console.log('The character at index ' + index + ' is ' + sentence.charAt(index))
 console.log('Chorus lyrics for "Happy": ' + chorus.repeat(5));
 
 //Chorus lyrics for "Happy": Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+
+//Math Floor Method 
+
+console.log(Math.floor(1.6)); //1
+console.log(Math.floor(3.5)); //3
+
+// Math Round Method
+
+console.log(Math.round (2.5)); //3
+console.log(Math.round (2.4)); //2
+console.log(Math.round (-2.49)); //-2
+console.log(Math.round (-2.70)); //-3
+
+//Math Ceil Method
+
+console.log(Math.ceil(0.60)); //1
+console.log(Math.ceil(0.30)); //1
+console.log(Math.ceil(0.60)); //1
+console.log(Math.ceil(-5.1)); //-5
+
+
+//conversation
+
+console.log(parseFloat("123.456").toFixed(2));
+var num=123.34567;
+console.log(typeof num);
+var strNum=num.toFixed(2);
+console.log(typeof (strNum));
+console.log(typeof (parseInt(strNum)));
+
+
