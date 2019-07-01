@@ -51,8 +51,9 @@ console.log(newClub)
 
 var x1=Boolean(0); //converting to Boolean
 console.log (x1); //false
-var x2="1234"
-console.log(Number(x2))
+
+var x2="12345"
+console.log(Number(x2)) //converting to Number 
 
 
 
