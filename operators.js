@@ -1,4 +1,4 @@
-//Escaping spiecial characters
+//Escaping special characters
 
 console.log ( 'Hi there my name is D\'Angelo') // "\" is solving the errors.
 
@@ -46,6 +46,14 @@ console.log(TheClub);
 
 let newClub = ((age >= 18) && (ID)) || wig; 
 console.log(newClub)
+
+//Implicit & Explicit  Coercion
+
+var x1=Boolean(0); //converting to Boolean
+console.log (x1); //false
+var x2="1234"
+console.log(Number(x2))
+
 
 
 
