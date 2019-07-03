@@ -25,7 +25,7 @@ console.log (x > z && x > y); //false
 
 //6. Check the result of whether x is NOT equal to y.
 
-console.log (x !== y);  //true 
+console.log (! (x== y));  //true 
 
 //7. Check the result of whether z is less than y OR z is greater than x.
 
@@ -41,5 +41,5 @@ console.log(x >= 10 && y <= 10)  //false
 
 //10. Check the result of whether x multiplied by z is less than 100 OR whether x multiplied by y is greater than 100.
 
-console.log( (x*z) < 100 || (x*y) > 100)
+console.log( ((x*z) < 100)|| ((x*y) > 100)) //true 
 

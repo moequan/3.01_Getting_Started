@@ -81,3 +81,4 @@ console.log(typeof (strNum));
 console.log(typeof (parseInt(strNum)));
 
 
+

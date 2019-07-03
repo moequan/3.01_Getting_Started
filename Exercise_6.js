@@ -9,7 +9,7 @@ console.log (x==y); //false
 
 //2. Check whether x and y are **not** equal.
 
-console.log (x===y); //false
+console.log (x!==y); //false
 
 //3. Check whether x is greater than y.
 
@@ -30,7 +30,7 @@ console.log (z*x > z+y) //true
 
 //7. Subtract z from x and check whether this result is less than y divided by z.
 
-console.log (x-z < z/y);  //false 
+console.log ((x-z) < (z/y));  //false 
 
 //8. Check whether z, x and y are equal.
 
@@ -38,8 +38,8 @@ console.log (z==x==y)  //false
 
 //9. Check whether the remainder of x divided by z and the remainder of y divided by z are equal.
 
-console.log(x%z); //0
-console.log (y%z); //0
+
+console.log ((x%z)==(y%z))
 
 //10. Check whether z added to x is greater than y minus z. If it is not, find an operator which will give a result of true.
 
