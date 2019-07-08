@@ -31,12 +31,10 @@ for(let i=5; i > 0; i--  ) {
 
 let string="!"
 
-for (let i = 0; i <= 5; i++) {
-   
-    string=string+`_`;
-    console.log(string)
-
-    for( let j = 0; j<=5; j++)
-    string=string+ `-`;
+for (let i = 0; i < 3; i++) {
+    //console.log(`I am the farther loop number ${i}.`);
+    string=string+`!`;
+    for( let j = 0; j<=2; j++)
+    string=string+`*`;
     console.log ( string)
 }
