@@ -1,8 +1,11 @@
 // //1 
-// let num = 1
-// console.log(12345678910)
-// for (let i = 1; i <= 10; i++) {
-//     console.log(i)
+
+    let num=``;
+    for(let i=1; i<=10; i++)
+    {
+        num=num+i;
+    }
+    console.log(num); 
 // }
 // console.log("--------------------------------")
 // //2 
@@ -134,17 +137,17 @@
 //    console.log(result)}
 
 
-let result_star=``;
-for( let i=5; i>=1; i--)
-{
+// let result_star=``;
+// for( let i=5; i>=1; i--)
+// {
     
-    for(let j=1; j<=i; j++)
-    {
-        result_star= result_star + `*`;  
-    }
-    console.log(result_star);
-    result_star=``;
-}
+//     for(let j=1; j<=i; j++)
+//     {
+//         result_star= result_star + `*`;  
+//     }
+//     console.log(result_star);
+//     result_star=``;
+// }
 
 
 
